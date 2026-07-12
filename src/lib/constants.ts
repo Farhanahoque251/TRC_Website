@@ -17,6 +17,7 @@ export const site = {
   phoneHref: "tel:+8801799707090",
   email: "alim@trcbd.net",
   emailHref: "mailto:alim@trcbd.net",
+  whatsappHref: "https://wa.me/8801799707090",
   address: {
     line1: "Block-B, Shahara Haven (5th Floor)",
     line2: "Plot-91, Avenue-01, Kalshi Road, Section-12, Mirpur",
@@ -25,12 +26,12 @@ export const site = {
 };
 
 export const nav = [
-  { label: "About", href: "#about" },
-  { label: "Services", href: "#services" },
-  { label: "Approach", href: "#approach" },
-  { label: "Track Record", href: "#milestones" },
-  { label: "Insights", href: "#insights" },
-  { label: "Contact", href: "#contact" },
+  { label: "Home", href: "/" },
+  { label: "About", href: "/about" },
+  { label: "Services", href: "/services" },
+  { label: "Track Record", href: "/results" },
+  { label: "Insights", href: "/insights" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export const hero = {
@@ -38,8 +39,8 @@ export const hero = {
   title: "VAT compliance, engineered to work by default.",
   subtitle:
     "We build resilient VAT systems for Bangladesh's most demanding industries — where compliance is the default state, not an afterthought. Always fighting within the law, never with shortcuts.",
-  primaryCta: { label: "Book a consultation", href: "#contact" },
-  secondaryCta: { label: "Explore our services", href: "#services" },
+  primaryCta: { label: "Book a consultation", href: "/contact" },
+  secondaryCta: { label: "Explore our services", href: "/services" },
   proof: [
     { value: "৳100 Cr+", label: "Saved for clients" },
     { value: "50+", label: "Companies served" },
@@ -271,8 +272,7 @@ export const consultant = {
     "Managing Partner, VATBONDHU News",
     "Published VAT guides & public-awareness programmes",
   ],
-  linkedin:
-    "https://www.linkedin.com/in/md-alimuzzaman-b075b238",
+  linkedin: "https://www.linkedin.com/in/md-alimuzzaman-b075b238",
 };
 
 export const insights = {
@@ -321,19 +321,19 @@ export const footerNav = [
   {
     heading: "Company",
     links: [
-      { label: "About TRC", href: "#about" },
-      { label: "Lead Consultant", href: "#consultant" },
-      { label: "Track Record", href: "#milestones" },
-      { label: "Insights", href: "#insights" },
+      { label: "About TRC", href: "/about" },
+      { label: "Lead Consultant", href: "/about" },
+      { label: "Track Record", href: "/results" },
+      { label: "Insights", href: "/insights" },
     ],
   },
   {
     heading: "Services",
     links: [
-      { label: "Audit & dispute defence", href: "#services" },
-      { label: "Zero-VAT systems", href: "#services" },
-      { label: "360° VAT infrastructure", href: "#services" },
-      { label: "Sector-specific VAT", href: "#services" },
+      { label: "Audit & dispute defence", href: "/services" },
+      { label: "Zero-VAT systems", href: "/services" },
+      { label: "360° VAT infrastructure", href: "/services" },
+      { label: "Contact us", href: "/contact" },
     ],
   },
 ];
