@@ -1,3 +1,4 @@
+
 /**
  * Single source of truth for site content.
  * Editing copy here updates it everywhere.
@@ -32,6 +33,13 @@ export const nav = [
   { label: "Track Record", href: "/results" },
   { label: "Insights", href: "/insights" },
   { label: "Contact", href: "/contact" },
+];
+
+export const social = [
+  { label: "LinkedIn", icon: "linkedin", color: "#0A66C2", href: "https://www.linkedin.com/in/md-alimuzzaman-b075b238" },
+  { label: "Facebook", icon: "facebook", color: "#1877F2", href: "https://www.facebook.com/vatbondhunews" },
+  { label: "YouTube", icon: "youtube", color: "#FF0000", href: "https://www.youtube.com/vatbondhunews" },
+  { label: "VATBONDHU News", icon: "globe", color: "#C9A227", href: "https://www.vatbondhu.com" },
 ];
 
 export const hero = {
@@ -235,16 +243,15 @@ export const testimonials = [
 ];
 
 export const clients = [
-  "Berger Paints",
-  "Bashundhara Group",
-  "Unilever",
-  "Akij",
-  "HATIL",
-  "Crown Cement",
-  "Metro Cement",
-  "BTI",
-  "Greenland",
-  "Jamuna Spacetech",
+  { name: "The World Bank", file: "world-bank.png" },
+  { name: "Bashundhara Bitumen", file: "bashundhara.png" },
+  { name: "Berger Paints", file: "berger.png" },
+  { name: "bti", file: "bti.png" },
+  { name: "GETCO", file: "getco.png" },
+  { name: "Mallick Group", file: "mallick.png" },
+  { name: "OLiLA Glass Industries", file: "olila.png" },
+  { name: "P.N. Composite Ltd.", file: "pn-composite.png" },
+  { name: "Mayami Resort", file: "mayami.png" },
 ];
 
 export const sectors = [
@@ -265,6 +272,18 @@ export const consultant = {
   bio: [
     "Md. Alimuzzaman is the Lead Consultant of TRC and a highly respected professional in Bangladesh's VAT and tax sector. With more than 28 years of diversified experience across leading industrial groups, he has spent the last six years as a dedicated VAT consultant guiding businesses on compliance, system development and sector-specific strategy.",
     "Before consultancy, he served at Bashundhara Cement (8 years) and Crown Cement Group (10 years as General Manager, VAT, Tax & Customs). He is known for professional integrity, logical solutions and deep practical knowledge — and for challenging the conventional cost of consultancy in the country.",
+  ],
+  engagements: [
+    "The World Bank Group, Bangladesh",
+    "Bashundhara Group",
+    "Berger Paints Bangladesh",
+    "Sakib Al Hasan (National Cricketer)",
+    "Mollik Group",
+    "Rangpur Group",
+    "P.N. Composite Ltd.",
+    "Express Leathers (Lotto Shoe)",
+    "Nationtech Communications Ltd.",
+    "Jotun Paints Bangladesh",
   ],
   credentials: [
     "Member, International VAT Association (IVA), Belgium",
@@ -309,13 +328,6 @@ export const contact = {
   lead:
     "Tell us about your business and the VAT challenge you're facing. We'll respond with a clear, lawful path forward.",
 };
-
-export const social = [
-  { label: "LinkedIn", href: "https://www.linkedin.com/in/md-alimuzzaman-b075b238" },
-  { label: "VATBONDHU News", href: "https://www.vatbondhu.com" },
-  { label: "YouTube", href: "https://www.youtube.com/vatbondhunews" },
-  { label: "Facebook", href: "https://www.facebook.com/vatbondhunews" },
-];
 
 export const footerNav = [
   {

@@ -1,3 +1,4 @@
+
 "use client";
 
 import Link from "next/link";
@@ -6,7 +7,7 @@ import { useEffect, useState } from "react";
 import { Container } from "@/components/ui/Container";
 import { Logo } from "@/components/ui/Logo";
 import { Button } from "@/components/ui/Button";
-import { nav, site } from "@/lib/constants";
+import { nav } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 
 export function Navbar() {
@@ -32,7 +33,7 @@ export function Navbar() {
     <header className={cn("fixed inset-x-0 top-0 z-50 border-b bg-white transition-shadow duration-300", scrolled ? "border-navy-100 shadow-soft" : "border-navy-100/60")}>
       <Container className="flex h-20 items-center justify-between">
         <Logo />
-        <nav className="hidden items-center gap-7 lg:flex" aria-label="Primary">
+        <nav className="hidden items-center gap-8 lg:flex" aria-label="Primary">
           {nav.map((item) => {
             const active = item.href === "/" ? pathname === "/" : pathname.startsWith(item.href);
             return (
@@ -42,8 +43,7 @@ export function Navbar() {
             );
           })}
         </nav>
-        <div className="hidden items-center gap-4 lg:flex">
-          <a href={site.phoneHref} className="text-sm font-semibold text-navy-800 transition-colors hover:text-gold-600">{site.phone}</a>
+        <div className="hidden lg:block">
           <Button href="/contact" variant="gold" size="sm">Book a consultation</Button>
         </div>
         <button type="button" onClick={() => setOpen((v) => !v)} className="inline-flex h-11 w-11 items-center justify-center rounded-lg text-navy-900 transition-colors hover:bg-navy-50 lg:hidden" aria-label={open ? "Close menu" : "Open menu"} aria-expanded={open}>
@@ -64,9 +64,8 @@ export function Navbar() {
               </Link>
             );
           })}
-          <div className="mt-3 flex flex-col gap-3 border-t border-navy-100 pt-4">
-            <a href={site.phoneHref} className="px-3 text-sm font-semibold text-navy-700">{site.phone}</a>
-            <Button href="/contact" variant="gold">Book a consultation</Button>
+          <div className="mt-3 border-t border-navy-100 pt-4">
+            <Button href="/contact" variant="gold" className="w-full">Book a consultation</Button>
           </div>
         </Container>
       </div>
