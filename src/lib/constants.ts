@@ -7,8 +7,8 @@
 export const site = {
   name: "The Real Consultation",
   shortName: "TRC",
-  domain: "trcbd.net",
-  url: "https://www.trcbd.net",
+  domain: "trcvat.com",
+  url: "https://www.trcvat.com",
   tagline: "System Trust · Digital Compliance · Fiscal Governance",
   description:
     "TRC (The Real Consultation) is Bangladesh's specialist VAT consultancy — building compliant, leak-proof VAT systems for cement, steel, leather, FMCG and trading businesses.",
@@ -32,6 +32,7 @@ export const nav = [
   { label: "Services", href: "/services" },
   { label: "Track Record", href: "/results" },
   { label: "Insights", href: "/insights" },
+  { label: "Team", href: "/team" },
   { label: "Contact", href: "/contact" },
 ];
 
@@ -349,3 +350,34 @@ export const footerNav = [
     ],
   },
 ];
+
+export const team = {
+  advisory: [
+    { name: "Shahriar Istiq Halim, FCA", role: "Executive Director, Purbani Group", file: "advisor-1.jpg" },
+    { name: "Masudur Rahman, FCA", role: "Partner, KM Alam & Co.", file: "advisor-2.jpg" },
+    { name: "Mahfuzur Rahman", role: "Director, Hatil Group", file: "advisor-3.jpg" },
+    { name: "Md. Nabiul Alam, FCA", role: "Advisory Board Member", file: "advisor-4.jpg" },
+  ],
+  research: [
+    { name: "Md. Mosfiqur Rahman (Munna)", detail: "BBA & MBA (Finance), CU; ICMAB (Level 02)", exp: "13 years" },
+    { name: "Md. Ahsan Habib", detail: "MBS-Accounting; PGD-VICM, HRM, FM", exp: "14 years" },
+    { name: "Md. Majnu Miah", detail: "MBA, LL.B, PGD-Customs; NBR Certified VAT Consultant", exp: "12 years" },
+    { name: "Md. Sajjad Hossain", detail: "MBS; LLB, ICMAB (Level Two), ITP; Dhaka Taxes Bar Assoc.", exp: "10 years" },
+    { name: "Md. Mofijur Rahman (Pintu)", detail: "LL.M (R.U), PGD VICM", exp: "10 years" },
+    { name: "Md. Nazmul Hossen", detail: "MBS (CA CC)", exp: "8 years" },
+    { name: "Ripon Chandra Datta", detail: "Masters in Statistics, Dhaka College; ICSB (CL-III)", exp: "12 years" },
+    { name: "Shammir Alam Arju", detail: "Bachelor of Business Studies", exp: "14+ years" },
+  ],
+  expert: [
+    { name: "Touhidul Momen Roman", role: "Consultant, TRC", exp: "15 years", file: "expert-1.jpg" },
+    { name: "Md. Borhan Uddin", role: "ITP, VC · Consultant, TRC", exp: "13 years", file: "expert-2.jpg" },
+    { name: "Morshed Ahmed", role: "ITP, CA CC · Consultant, TRC", exp: "14 years", file: "expert-3.jpg" },
+    { name: "Md. Rashedul Hasan", role: "M Com, CA CC · Consultant, TRC", exp: "12 years", file: "expert-4.jpg" },
+    { name: "AKM Shafiqul Islam", role: "ITP · Consultant, TRC", exp: "14 years", file: "expert-5.jpg" },
+  ],
+  it: [
+    { name: "Shahin Murtaza Saikat", role: "Head of IT, TRC", exp: "10 years", file: "it-1.jpg" },
+    { name: "SM Sayem", role: "Video Editor, TRC", exp: "5 years", file: "it-2.jpg" },
+    { name: "Md. Sohag", role: "IT Assistant, TRC", exp: "2 years", file: "it-3.jpg" },
+  ],
+};
